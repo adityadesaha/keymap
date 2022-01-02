@@ -1,0 +1,22 @@
+// vertical combos on right hand
+COMB(lnRet, KC_ENT, KC_L, HOME_N)
+COMB(ueBsp, KC_BSPC, KC_U, HOME_E)
+COMB(yiTab, KC_TAB, KC_Y, HOME_I)
+COMB(qoBacktick, KC_GRV, KC_QUOT, HOME_O)
+
+// vertical combos on left hand
+COMB(wrTilde, KC_TILD, KC_W, HOME_R)
+COMB(fsUnds, KC_UNDS, NAV_F, HOME_S)
+COMB(ptMinus, KC_MINS, KC_P, HOME_T)
+
+// horizontal combos, right
+COMB(neExclm, KC_EXLM, HOME_N, HOME_E)
+COMB(eiScolon, KC_SCLN, HOME_E, HOME_I)
+COMB(luColon, KC_COLN, KC_L, KC_U)
+
+// horizontal combos, left
+COMB(rsPlus, KC_PLUS, HOME_R, HOME_S)
+COMB(stEqual, KC_EQL, HOME_S, HOME_T)
+
+// reset into bootloader mode using four keys on the right index
+COMB(reset, RESET, KC_J, KC_L, HOME_M, HOME_N)
